@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Financial-specific colors
+				gain: {
+					DEFAULT: '#4CAF50',
+					light: '#A5D6A7'
+				},
+				loss: {
+					DEFAULT: '#F44336',
+					light: '#FFCDD2'
+				},
+				neutral: {
+					DEFAULT: '#90A4AE',
+					light: '#CFD8DC'
+				},
+				chart: {
+					blue: '#2196F3',
+					purple: '#9C27B0',
+					teal: '#009688',
+					orange: '#FF9800',
+					cyan: '#00BCD4'
 				}
 			},
 			borderRadius: {
